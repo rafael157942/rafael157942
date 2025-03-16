@@ -1,0 +1,22 @@
+### 3. Resource Pack `manifest.json`
+
+```json
+{
+  "format_version": "2",
+  "header": {
+    "description": "Terralith Resource Pack",
+    "name": "Terralith",
+    "uuid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", // Gerar UUIDs únicos
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Terralith Resource Pack",
+      "type": "data",
+      "uuid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", // Gerar UUIDs únicos
+      "version": [1, 0, 0]
+    }
+  ]
+}
+```
